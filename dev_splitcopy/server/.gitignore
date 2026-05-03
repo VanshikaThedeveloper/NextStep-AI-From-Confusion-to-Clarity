@@ -1,0 +1,46 @@
+# 🔹 Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔹 Virtual Environment
+venv/
+.env/
+
+.venv/
+ENV/
+
+# 🔹 Environment variables (IMPORTANT)
+.env
+
+# 🔹 Logs & temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# 🔹 Database files
+*.db
+*.sqlite3
+
+# 🔹 Build / distribution
+build/
+dist/
+*.egg-info/
+
+# 🔹 VS Code / IDE settings
+.vscode/
+.idea/
+*.iml
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 🔹 Migrations (optional, if using Alembic)
+migrations/__pycache__/
